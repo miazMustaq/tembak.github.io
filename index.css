@@ -1,0 +1,66 @@
+html{height: 100%;}
+
+body{
+    /* background: #ff429a; */
+    /* background:-webkit-gradient(linear,0%,0%,0%,100%, from(rgba(245, 36, 25,1)),to(#0000)); */
+    /* background:-moz-linear-gradient(top,rgb(245, 36, 25) 0%, rgb(0,0,0) 100%); */
+    overflow: hidden;
+    transition: all 1s linear;
+}
+.drop{
+    width: 1px;
+    background-color: rgb(255, 34, 126);
+    height: 89px;
+    position: absolute;
+    bottom: 200px;
+    -webkit-animation: fall.90s linear infinite;
+    -moz-animation: fall.90s linear infinite;
+}
+.hati{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    bottom: 200px;
+    background-image: url("images/heart-icon-valentine-2.png");
+    background-size: cover;
+    border-radius: 200px;
+    -webkit-animation: fall.99s linear infinite;
+    -moz-animation: fall.99s linear infinite;
+}
+
+
+@-webkit-keyframes fall {
+    to {margin-top: 900px;}
+}
+@-moz-keyframes fall{
+    to {margin-top: 900px;}
+}
+
+.cover{
+    text-align: center;
+    margin-top: 170px;
+    /* background-color: darkslategrey; */
+  
+}
+img{
+    width: 130px;
+}
+
+h1,h2{
+    font-family: 'Sofia', cursive;
+}
+.tombol{
+    align-items: center;
+}
+.jawaban{
+    width: 130px;
+    background-color: darkslategrey;
+    margin-left: 10px;
+    height: 50px;
+    border-radius: 30px;
+    color: aliceblue;
+    font-size: large;
+}
+.jawaban:hover{
+    background-color: dimgrey;
+}
